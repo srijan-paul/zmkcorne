@@ -1,5 +1,8 @@
-config SHIELD_CORNY_LEFT
-    def_bool $(shields_list_contains,corny_left)
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
 
-config SHIELD_CORNY_RIGHT
-    def_bool $(shields_list_contains,corny_right)
+config SHIELD_CHIPPY_LEFT
+	def_bool $(shields_list_contains,chippy_left)
+
+config SHIELD_CHIPPY_RIGHT
+	def_bool $(shields_list_contains,chippy_right)
