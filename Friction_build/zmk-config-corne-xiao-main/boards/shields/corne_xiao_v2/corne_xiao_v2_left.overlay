@@ -1,4 +1,4 @@
-#include "corny.dtsi"
+#include "corne_xiao_v2.dtsi"
 
 &kscan0 {
     col-gpios
@@ -11,3 +11,6 @@
         ;
 };
 
+&left_encoder {
+    status = "okay";
+};
